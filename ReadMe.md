@@ -16,5 +16,8 @@ cd ~/ros2_ws
 colcon build --symlink-install
 source install/setup.bash
 
-Run the mapping stack with:
+P1: Run the mapping stack with:
 ros2 launch my_robot_controller start_mapping.launch.py
+
+P2: Run the navigation stack with:
+ros2 launch my_robot_controller run_navigation.launch.py
