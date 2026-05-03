@@ -1,0 +1,83 @@
+[0.000000] (-) TimerEvent: {}
+[0.000175] (my_robot_controller) JobQueued: {'identifier': 'my_robot_controller', 'dependencies': OrderedDict()}
+[0.000400] (my_robot_controller) JobStarted: {'identifier': 'my_robot_controller'}
+[0.099905] (-) TimerEvent: {}
+[0.200058] (-) TimerEvent: {}
+[0.300328] (-) TimerEvent: {}
+[0.400497] (-) TimerEvent: {}
+[0.500654] (-) TimerEvent: {}
+[0.600807] (-) TimerEvent: {}
+[0.700961] (-) TimerEvent: {}
+[0.708925] (my_robot_controller) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/my_robot_controller', 'build', '--build-base', '/ros2_ws/build/my_robot_controller/build', 'install', '--record', '/ros2_ws/build/my_robot_controller/install.log', '--single-version-externally-managed'], 'cwd': '/ros2_ws/src/my_robot_controller', 'env': {'HOSTNAME': 'gregor-PC', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/root/.local/bin', 'DISPLAY': ':0', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'PWD': '/ros2_ws/build/my_robot_controller', 'PYTHONPATH': '/ros2_ws/build/my_robot_controller/prefix_override:/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[0.801032] (-) TimerEvent: {}
+[0.901177] (-) TimerEvent: {}
+[0.913486] (my_robot_controller) StdoutLine: {'line': b'running egg_info\n'}
+[0.913867] (my_robot_controller) StdoutLine: {'line': b'creating ../../build/my_robot_controller/my_robot_controller.egg-info\n'}
+[0.913984] (my_robot_controller) StdoutLine: {'line': b'writing ../../build/my_robot_controller/my_robot_controller.egg-info/PKG-INFO\n'}
+[0.914132] (my_robot_controller) StdoutLine: {'line': b'writing dependency_links to ../../build/my_robot_controller/my_robot_controller.egg-info/dependency_links.txt\n'}
+[0.914233] (my_robot_controller) StdoutLine: {'line': b'writing entry points to ../../build/my_robot_controller/my_robot_controller.egg-info/entry_points.txt\n'}
+[0.914310] (my_robot_controller) StdoutLine: {'line': b'writing requirements to ../../build/my_robot_controller/my_robot_controller.egg-info/requires.txt\n'}
+[0.914417] (my_robot_controller) StdoutLine: {'line': b'writing top-level names to ../../build/my_robot_controller/my_robot_controller.egg-info/top_level.txt\n'}
+[0.914509] (my_robot_controller) StdoutLine: {'line': b"writing manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'\n"}
+[0.915729] (my_robot_controller) StdoutLine: {'line': b"reading manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'\n"}
+[0.916324] (my_robot_controller) StdoutLine: {'line': b"writing manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'\n"}
+[0.916428] (my_robot_controller) StdoutLine: {'line': b'running build\n'}
+[0.916496] (my_robot_controller) StdoutLine: {'line': b'running build_py\n'}
+[0.916584] (my_robot_controller) StdoutLine: {'line': b'creating /ros2_ws/build/my_robot_controller/build\n'}
+[0.916681] (my_robot_controller) StdoutLine: {'line': b'creating /ros2_ws/build/my_robot_controller/build/lib\n'}
+[0.916741] (my_robot_controller) StdoutLine: {'line': b'creating /ros2_ws/build/my_robot_controller/build/lib/my_robot_controller\n'}
+[0.916789] (my_robot_controller) StdoutLine: {'line': b'copying my_robot_controller/navigation.py -> /ros2_ws/build/my_robot_controller/build/lib/my_robot_controller\n'}
+[0.917138] (my_robot_controller) StdoutLine: {'line': b'copying my_robot_controller/__init__.py -> /ros2_ws/build/my_robot_controller/build/lib/my_robot_controller\n'}
+[0.917223] (my_robot_controller) StdoutLine: {'line': b'copying my_robot_controller/mapping.py -> /ros2_ws/build/my_robot_controller/build/lib/my_robot_controller\n'}
+[0.917689] (my_robot_controller) StdoutLine: {'line': b'running install\n'}
+[0.917854] (my_robot_controller) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[0.917924] (my_robot_controller) StderrLine: {'line': b'  warnings.warn(\n'}
+[0.918044] (my_robot_controller) StdoutLine: {'line': b'running install_lib\n'}
+[0.918523] (my_robot_controller) StdoutLine: {'line': b'creating /ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller\n'}
+[0.918618] (my_robot_controller) StdoutLine: {'line': b'copying /ros2_ws/build/my_robot_controller/build/lib/my_robot_controller/navigation.py -> /ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller\n'}
+[0.918693] (my_robot_controller) StdoutLine: {'line': b'copying /ros2_ws/build/my_robot_controller/build/lib/my_robot_controller/__init__.py -> /ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller\n'}
+[0.918762] (my_robot_controller) StdoutLine: {'line': b'copying /ros2_ws/build/my_robot_controller/build/lib/my_robot_controller/mapping.py -> /ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller\n'}
+[0.919097] (my_robot_controller) StdoutLine: {'line': b'byte-compiling /ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/navigation.py to navigation.cpython-310.pyc\n'}
+[0.919808] (my_robot_controller) StdoutLine: {'line': b'byte-compiling /ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/__init__.py to __init__.cpython-310.pyc\n'}
+[0.919939] (my_robot_controller) StdoutLine: {'line': b'byte-compiling /ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/mapping.py to mapping.cpython-310.pyc\n'}
+[0.920266] (my_robot_controller) StdoutLine: {'line': b'running install_data\n'}
+[0.920603] (my_robot_controller) StdoutLine: {'line': b'creating /ros2_ws/install/my_robot_controller/share/ament_index\n'}
+[0.920702] (my_robot_controller) StdoutLine: {'line': b'creating /ros2_ws/install/my_robot_controller/share/ament_index/resource_index\n'}
+[0.920786] (my_robot_controller) StdoutLine: {'line': b'creating /ros2_ws/install/my_robot_controller/share/ament_index/resource_index/packages\n'}
+[0.920840] (my_robot_controller) StdoutLine: {'line': b'copying resource/my_robot_controller -> /ros2_ws/install/my_robot_controller/share/ament_index/resource_index/packages\n'}
+[0.920909] (my_robot_controller) StdoutLine: {'line': b'copying package.xml -> /ros2_ws/install/my_robot_controller/share/my_robot_controller\n'}
+[0.920990] (my_robot_controller) StdoutLine: {'line': b'creating /ros2_ws/install/my_robot_controller/share/my_robot_controller/launch\n'}
+[0.921043] (my_robot_controller) StdoutLine: {'line': b'copying launch/run_navigation.launch.py -> /ros2_ws/install/my_robot_controller/share/my_robot_controller/launch\n'}
+[0.921370] (my_robot_controller) StdoutLine: {'line': b'copying launch/multi_spawn_turtlebot3.launch.py -> /ros2_ws/install/my_robot_controller/share/my_robot_controller/launch\n'}
+[0.922283] (my_robot_controller) StdoutLine: {'line': b'copying launch/turtlebot3_dqn_stage2.launch.py -> /ros2_ws/install/my_robot_controller/share/my_robot_controller/launch\n'}
+[0.923096] (my_robot_controller) StdoutLine: {'line': b'copying launch/turtlebot3_house.launch.py -> /ros2_ws/install/my_robot_controller/share/my_robot_controller/launch\n'}
+[0.923971] (my_robot_controller) StdoutLine: {'line': b'copying launch/start_mapping.launch.py -> /ros2_ws/install/my_robot_controller/share/my_robot_controller/launch\n'}
+[0.924220] (my_robot_controller) StdoutLine: {'line': b'copying launch/turtlebot3_dqn_stage1.launch.py -> /ros2_ws/install/my_robot_controller/share/my_robot_controller/launch\n'}
+[0.925086] (my_robot_controller) StdoutLine: {'line': b'copying launch/turtlebot3_dqn_stage3.launch.py -> /ros2_ws/install/my_robot_controller/share/my_robot_controller/launch\n'}
+[0.925947] (my_robot_controller) StdoutLine: {'line': b'copying launch/spawn_turtlebot3.launch.py -> /ros2_ws/install/my_robot_controller/share/my_robot_controller/launch\n'}
+[0.926815] (my_robot_controller) StdoutLine: {'line': b'copying launch/robot_state_publisher.launch.py -> /ros2_ws/install/my_robot_controller/share/my_robot_controller/launch\n'}
+[0.927678] (my_robot_controller) StdoutLine: {'line': b'copying launch/empty_world.launch.py -> /ros2_ws/install/my_robot_controller/share/my_robot_controller/launch\n'}
+[0.928551] (my_robot_controller) StdoutLine: {'line': b'copying launch/turtlebot3_autorace_2020.launch.py -> /ros2_ws/install/my_robot_controller/share/my_robot_controller/launch\n'}
+[0.929433] (my_robot_controller) StdoutLine: {'line': b'copying launch/turtlebot3_dqn_stage4.launch.py -> /ros2_ws/install/my_robot_controller/share/my_robot_controller/launch\n'}
+[0.930300] (my_robot_controller) StdoutLine: {'line': b'copying launch/turtlebot3_world.launch.py -> /ros2_ws/install/my_robot_controller/share/my_robot_controller/launch\n'}
+[0.930563] (my_robot_controller) StdoutLine: {'line': b'copying launch/multi_robot.launch.py -> /ros2_ws/install/my_robot_controller/share/my_robot_controller/launch\n'}
+[0.931676] (my_robot_controller) StdoutLine: {'line': b'creating /ros2_ws/install/my_robot_controller/share/my_robot_controller/maps\n'}
+[0.931754] (my_robot_controller) StdoutLine: {'line': b'copying maps/my_map.yaml -> /ros2_ws/install/my_robot_controller/share/my_robot_controller/maps\n'}
+[0.931983] (my_robot_controller) StdoutLine: {'line': b'copying maps/manual_map.pgm -> /ros2_ws/install/my_robot_controller/share/my_robot_controller/maps\n'}
+[0.932619] (my_robot_controller) StdoutLine: {'line': b'copying maps/map.rviz -> /ros2_ws/install/my_robot_controller/share/my_robot_controller/maps\n'}
+[0.934809] (my_robot_controller) StdoutLine: {'line': b'copying maps/manual_map.yaml -> /ros2_ws/install/my_robot_controller/share/my_robot_controller/maps\n'}
+[0.934980] (my_robot_controller) StdoutLine: {'line': b'copying maps/map.yaml -> /ros2_ws/install/my_robot_controller/share/my_robot_controller/maps\n'}
+[0.935240] (my_robot_controller) StdoutLine: {'line': b'copying maps/my_map.pgm -> /ros2_ws/install/my_robot_controller/share/my_robot_controller/maps\n'}
+[0.935630] (my_robot_controller) StdoutLine: {'line': b'copying maps/map.pgm -> /ros2_ws/install/my_robot_controller/share/my_robot_controller/maps\n'}
+[0.935878] (my_robot_controller) StdoutLine: {'line': b'creating /ros2_ws/install/my_robot_controller/share/my_robot_controller/worlds\n'}
+[0.935953] (my_robot_controller) StdoutLine: {'line': b'copying worlds/my_custom_world.world -> /ros2_ws/install/my_robot_controller/share/my_robot_controller/worlds\n'}
+[0.936380] (my_robot_controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.937556] (my_robot_controller) StdoutLine: {'line': b'Copying ../../build/my_robot_controller/my_robot_controller.egg-info to /ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info\n'}
+[0.938263] (my_robot_controller) StdoutLine: {'line': b'running install_scripts\n'}
+[0.952211] (my_robot_controller) StdoutLine: {'line': b'Installing mapping script to /ros2_ws/install/my_robot_controller/lib/my_robot_controller\n'}
+[0.952311] (my_robot_controller) StdoutLine: {'line': b'Installing navigation script to /ros2_ws/install/my_robot_controller/lib/my_robot_controller\n'}
+[0.952528] (my_robot_controller) StdoutLine: {'line': b"writing list of installed files to '/ros2_ws/build/my_robot_controller/install.log'\n"}
+[0.964870] (my_robot_controller) CommandEnded: {'returncode': 0}
+[1.001298] (-) TimerEvent: {}
+[1.022041] (my_robot_controller) JobEnded: {'identifier': 'my_robot_controller', 'rc': 0}
+[1.022509] (-) EventReactorShutdown: {}

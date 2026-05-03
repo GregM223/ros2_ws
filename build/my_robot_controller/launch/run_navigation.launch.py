@@ -1,1 +1,1 @@
-/home/student/ros2_ws/src/my_robot_controller/launch/run_navigation.launch.py
+/ros2_ws/src/my_robot_controller/launch/run_navigation.launch.py

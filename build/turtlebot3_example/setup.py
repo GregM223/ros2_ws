@@ -1,1 +1,0 @@
-/home/student/ros2_ws/src/turtlebot3/turtlebot3_example/setup.py

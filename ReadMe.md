@@ -17,7 +17,31 @@ colcon build --symlink-install
 source install/setup.bash
 
 P1: Run the mapping stack with:
-ros2 launch my_robot_controller start_mapping.launch.py
+$ ros2 launch my_robot_controller start_mapping.launch.py
 
 P2: Run the navigation stack with:
-ros2 launch my_robot_controller run_navigation.launch.py
+$ ros2 launch my_robot_controller run_navigation.launch.py
+
+P3: For Autoware navigation, first ensure ~/autoware_map/sample-map-planning exists, then start the Autoware Docker:
+xhost +local:docker
+
+docker run -it --rm --privileged --net=host --env=DISPLAY
+--env=QT_X11_NO_MITSHM=1 -v /tmp/.X11-unix:/tmp/.X11-unix -v
+/home/autolab/ros2_ws:/ros2_ws -v
+/home/autolab/autoware_map:/autoware_map --workdir /ros2_ws
+mohsen_aw:full bash
+
+Then build, source and launch:
+colcon build --symlink-install
+source /ros2_ws/setup.bash
+ros2 launch my_robot_controller car_nav.launch.py
+
+Before building for P3, the turtlebot packages must be ignored. Run the following on your host machine:
+
+touch ~/ros2_ws/src/turtlebot3/COLCON_IGNORE
+touch ~/ros2_ws/src/turtlebot3_simulations/COLCON_IGNORE
+
+To revert back to P1/P2, remove these files:
+
+rm ~/ros2_ws/src/turtlebot3/COLCON_IGNORE
+rm ~/ros2_ws/src/turtlebot3_simulations/COLCON_IGNORE

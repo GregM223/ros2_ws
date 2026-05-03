@@ -1,1 +1,1 @@
-/home/student/ros2_ws/src/my_robot_controller/setup.py
+/ros2_ws/src/my_robot_controller/setup.py

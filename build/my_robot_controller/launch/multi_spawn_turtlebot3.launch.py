@@ -1,1 +1,1 @@
-/home/student/ros2_ws/src/my_robot_controller/launch/multi_spawn_turtlebot3.launch.py
+/ros2_ws/src/my_robot_controller/launch/multi_spawn_turtlebot3.launch.py

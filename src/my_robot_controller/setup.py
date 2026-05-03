@@ -29,6 +29,7 @@ setup(
         'console_scripts': [
             "mapping = my_robot_controller.mapping:main",
             'navigation = my_robot_controller.navigation:main',
+            'av_nav = my_robot_controller.av_navigation:main',
         ],
     },
 )

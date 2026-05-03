@@ -8,6 +8,7 @@ setup.py
 ../../build/my_robot_controller/my_robot_controller.egg-info/requires.txt
 ../../build/my_robot_controller/my_robot_controller.egg-info/top_level.txt
 ../../build/my_robot_controller/my_robot_controller.egg-info/zip-safe
+launch/car_nav.launch.py
 launch/empty_world.launch.py
 launch/multi_robot.launch.py
 launch/multi_spawn_turtlebot3.launch.py
@@ -30,6 +31,7 @@ maps/map.yaml
 maps/my_map.pgm
 maps/my_map.yaml
 my_robot_controller/__init__.py
+my_robot_controller/av_navigation.py
 my_robot_controller/mapping.py
 my_robot_controller/navigation.py
 my_robot_controller.egg-info/PKG-INFO
