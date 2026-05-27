@@ -45,3 +45,12 @@ To revert back to P1/P2, remove these files:
 
 rm ~/ros2_ws/src/turtlebot3/COLCON_IGNORE
 rm ~/ros2_ws/src/turtlebot3_simulations/COLCON_IGNORE
+
+
+P4: AV Validation
+
+Designed and simulated an interactive traffic scenario using Autoware Scenario Simulator V2.
+The scenario involves an Ego vehicle navigating a four-way intersection with two NPC vehicles
+crossing perpendicular to its path.
+
+The scenario YAML file is located in the `scenario/` folder.
